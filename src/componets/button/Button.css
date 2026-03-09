@@ -1,0 +1,21 @@
+.botao{
+    padding: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.amarelo{
+    background-color: yellow;
+    color: black;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
