@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { setName, toggleLogged } from '../../redux/slice/userSlice';
+import { setName, toggleLogged } from '../../redux/slice/UserSlice';
 import { useNavigate } from 'react-router-dom';
 import "./LoginPage.css";
 

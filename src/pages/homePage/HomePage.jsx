@@ -92,7 +92,7 @@ function QuoteCard({ q }) {
 /* =====================
    MAIN COMPONENT
    ===================== */
-export default function Homepage() {
+export default function HomePage() {
   const navigate = useNavigate();
   return (
     <div>

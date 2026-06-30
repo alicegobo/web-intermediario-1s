@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleLogged } from '../../redux/slice/userSlice';
+import { toggleLogged } from '../../redux/slice/UserSlice';
 
 function BtnKawaii({ children, variant = "primary", style = {}, onClick }) {
   const base = {

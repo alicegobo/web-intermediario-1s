@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './popup.css'
+import './Popup.css'
 
 function Popup({ message = 'Teste', duration = 3000, onClose }) {
     const [isVisible, setIsVisible] = useState(true)
