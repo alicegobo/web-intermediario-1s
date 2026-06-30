@@ -15,7 +15,7 @@ function BtnKawaii({ children, variant = "primary", style = {}, onClick }) {
   const variants = {
     primary: { background: "linear-gradient(135deg, #E8829A, #c06080)", color: "white", boxShadow: "0 4px 18px rgba(232,130,154,0.38)" },
     secondary: { background: "transparent", color: "#E8829A", border: "2px solid #FFB6C1" },
-    gold: { background: "linear-gradient(135deg, #D4AF37, #b8962a)", color: "white", boxShadow: "0 4px 18px rgba(212,175,55,0.38)" },
+    gold: { background: "linear-gradient(135deg, #D4AF37, #b8962a)", color: "white", boxShadow: "0 4px 18px rgba(212,175,55,0.38)"   },
   };
   return (
     <button
