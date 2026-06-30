@@ -5,7 +5,7 @@ import ErrorPage from "./pages/errorPage/ErrorPage";
 import Layout from "./pages/Layout"
 import BooksPage from "./pages/booksPage/BooksPage";
 import LoginPage from "./pages/loginPage/LoginPage"
-import FavoritePage from "./pages/booksPage/favoritePage";
+import FavoritePage from "./pages/booksPage/FavoritePage";
 
 export const router = createBrowserRouter([
   {
