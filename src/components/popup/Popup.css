@@ -1,0 +1,75 @@
+/* ──────────────────────────────
+   popup.css — Golden Minimal
+────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
+
+.popup-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  animation: popup-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.popup-content {
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #fffde7;
+  border: 1.5px solid #ffd54f;
+  border-left: 4px solid #ffc107;
+  border-radius: 10px;
+
+  padding: 14px 16px;
+  min-width: 240px;
+  max-width: 360px;
+
+  box-shadow:
+    0 4px 16px rgba(255, 193, 7, 0.18),
+    0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.popup-content p {
+  margin: 0;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6d4c00;
+  line-height: 1.5;
+}
+
+.popup-content button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  color: #f9a825;
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.popup-content button:hover {
+  background: #fff3cd;
+  color: #c77800;
+}
+
+/* ── Animações ── */
+
+@keyframes popup-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+ 
